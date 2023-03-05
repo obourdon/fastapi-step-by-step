@@ -1,4 +1,4 @@
 fmt:
 	black .
-	isort -rc .
+	isort --overwrite-in-place .
 	autoflake .
