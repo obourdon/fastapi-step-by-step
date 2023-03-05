@@ -1,4 +1,4 @@
 fmt:
 	black .
 	isort --overwrite-in-place .
-	autoflake .
+	autoflake --remove-all-unused-imports -i -r .
